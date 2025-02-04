@@ -5,7 +5,7 @@ Mini Minecraft clone using ThreeJS library. It utilizes **Three.js** for 3D rend
 ## Demo
 
 You can see a demo of the project running here:  
-[Demo Link (if hosted)](https://yourdemo.com)
+[Demo Link](https://kruczek79.github.io/Mini-Minecraft/)
 
 ## Installation
 
