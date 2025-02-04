@@ -19,7 +19,7 @@ You can see a demo of the project running here:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/mini-minecraft.git
+   git clone https://github.com/Kruczek79/Mini-Minecraft.git
    cd mini-minecraft
    ```
 
