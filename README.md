@@ -31,7 +31,7 @@ You can see a demo of the project running here:
 
 3. Run `http-server`:
    ```bash
-   http-server
+   http-server .
    ```
    By default, it will serve the files on http://localhost:8080.
 
