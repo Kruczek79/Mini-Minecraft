@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Minecraft</title>
+
+    <link rel="stylesheet" href="./public/style.css">
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.172.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.172.0/examples/jsm/",
+            "stats": "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"
+          }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="inventory">
+        <div class="toolSelection"></div>
+        <div class="selection"></div>
+        <div class="inventoryItem" data-value="0">
+            <span class="itemNumber">Q</span>
+            <img src="./public/assets/cursors/hammer.png" alt="build">
+        </div>
+        <div class="inventoryItem" data-value="1">
+            <span class="itemNumber">E</span>
+            <img src="./public/assets/cursors/shovel.png" alt="destroy">
+        </div>
+        <div class="inventoryItem" data-value="GRASS">
+            <span class="itemNumber">1</span>
+            <img src="./public/assets/textures/flourish/grass_block_side.png" alt="grass">
+        </div>
+        <div class="inventoryItem" data-value="DIRT">
+            <span class="itemNumber">2</span>
+            <img src="./public/assets/textures/flourish/dirt.png" alt="dirt">
+        </div>
+        <div class="inventoryItem" data-value="OAK_LOG">
+            <span class="itemNumber">3</span>
+            <img src="./public/assets/textures/flourish/oak_log.png" alt="log">
+        </div>
+        <div class="inventoryItem" data-value="OAK_PLANKS">
+            <span class="itemNumber">4</span>
+            <img src="./public/assets/textures/flourish/oak_planks.png" alt="planks">
+        </div>
+        <div class="inventoryItem" data-value="OAK_LEAVES">
+            <span class="itemNumber">5</span>
+            <img src="./public/assets/textures/flourish/oak_leaves.png" alt="leaves">
+        </div>
+        <div class="inventoryItem" data-value="GLASS">
+            <span class="itemNumber">6</span>
+            <img src="./public/assets/textures/flourish/glass.png" alt="glass">
+        </div>
+        <div class="inventoryItem" data-value="BEDROCK">
+            <span class="itemNumber">7</span>
+            <img src="./public/assets/textures/flourish/bedrock.png" alt="bedrock">
+        </div>
+        <div class="inventoryItem" data-value="COBBLE">
+            <span class="itemNumber">8</span>
+            <img src="./public/assets/textures/flourish/cobblestone.png" alt="cobblestone">
+        </div>
+        <div class="inventoryItem" data-value="STONE">
+            <span class="itemNumber">9</span>
+            <img src="./public/assets/textures/flourish/stone.png" alt="stone">
+        </div>
+        <div class="inventoryItem" data-value="SAND">
+            <span class="itemNumber">[</span>
+            <img src="./public/assets/textures/flourish/sand.png" alt="sand">
+        </div>
+        <div class="inventoryItem" data-value="GRAVEL">
+            <span class="itemNumber">]</span>
+            <img src="./public/assets/textures/flourish/gravel.png" alt="gravel">
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
